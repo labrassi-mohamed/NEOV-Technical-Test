@@ -16,6 +16,7 @@ Build an AI-powered Q&A system (RAG system) that can answer user questions based
 ![alt text](image.png)
 
 ## Setup Guide
+Jupyter code is available in the`neov-technical-test.ipynb` file, or you can use the python code in the `main.py` file by following these steps:
 ### Step 1: Prepare the Environment
 Run the following commands to set up your environment:
 
