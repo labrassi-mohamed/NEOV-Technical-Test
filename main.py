@@ -13,7 +13,7 @@ from langchain_core.prompts import ChatPromptTemplate
 load_dotenv()
 
 if "GOOGLE_API_KEY" not in os.environ:
-    os.environ["GOOGLE_API_KEY"] = getpass.getpass(os.getenv("GEMINI_API_TOKEN"))
+    os.environ["GOOGLE_API_KEY"] = "your_api_key_here"
     
 # Function to ingest documents (PDF or text files)
 def ingest_documents(docs_path):
